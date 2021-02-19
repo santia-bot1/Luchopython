@@ -8,9 +8,9 @@
 
 # NOTA: no olvide que debe descargarlo a su local, hacer los cambios y luego volverlos a subir
 
-frase = input(Que palabras quieres mostrar en pantalla)
+frase = input("Que palabras quieres mostrar en pantalla")
 # le pedimos al usaurio que nos indique las veces que quiere que las muestre
-num1 = int(input(Cuantas veces quieres imprimir tu palabra en pantalla))
+num1 = int(input("Cuantas veces quieres imprimir tu palabra en pantalla"))
 
 # en el ciclo le indicamos que hagala repeticion desde 0 hasta el valoringresado anteriormente
 for x in range(0, num1):
