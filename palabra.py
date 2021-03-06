@@ -7,7 +7,7 @@
 # en la pantalla
 
 # NOTA: no olvide que debe descargarlo a su local, hacer los cambios y luego volverlos a subir
-
+"""
 frase = input("Que palabras quieres mostrar en pantalla")
 # le pedimos al usaurio que nos indique las veces que quiere que las muestre
 num1 = int(input("Cuantas veces quieres imprimir tu palabra en pantalla"))
@@ -17,3 +17,13 @@ for x in range(0, num1):
 
     # asi sacamos la palabra que el usuario ingreso al inicio
     print(frase)
+"""
+# le pedimos al usaurio que nos indique las veces que quiere que las muestre y que palabra quiere repetir
+palabra = input("Que palabra quieres mostras?: \n")
+repeticion = int(input("cuantas veces quieres repetir esta palabra?: \n"))
+
+contador = 0
+
+for i in range(0, repeticion):
+    contador = contador + 1
+    print(f"La palabra: {palabra}, se repitio: {contador}")

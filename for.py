@@ -9,3 +9,22 @@ Resultado: 2
 8
 10
 """
+#Se ingresa el numero inicial y el numero final
+
+
+def ciclo_while(numero_inicial, numero_final): #se crea el metodo ciclo_while 
+    while numero_inicial < numero_final: #se crea la operacion de la suma en while
+        numero_inicial = numero_inicial + 2
+        print(numero_inicial)
+
+def ciclo_for(numero_inicial,numero_final): #se crea el metodo ciclo_for
+    for i in range(numero_inicial, numero_final): #se crea la operacion en for
+        numero_inicial= numero_inicial + 2
+        print(numero_inicial)
+
+#Ingreso de los valores
+numero_inicial = int(input("ingrese el numero inicial: \n"))
+numero_final = int(input("ingrese el numero final: \n"))
+#llamados a los metodos
+ciclo_while(numero_inicial,numero_final)
+ciclo_for(numero_inicial,numero_final)
