@@ -10,7 +10,7 @@ Los requisitos del entorno de desarrollo para la integración
 - tener la extencion de python
 
 Una guía para la instalación
-- descargar el repositorio (https://github.com/santia-bot1/Luchopython/tree/ejericio/ENDPOINT)
+- descargar el repositorio (https://github.com/santia-bot1/Luchopython/edit/ejericio)
 - y clonarlo en el entrono visual
 
 
